@@ -207,6 +207,8 @@ body {
     background: #2e313c;
     padding-top: 7rem;
     padding-bottom: 7rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .about-img img {
@@ -221,6 +223,7 @@ body {
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
+    margin-bottom: 2rem;
 }
 
 .about-content h2 span {
@@ -233,7 +236,7 @@ body {
 
 .about-content p {
     font-size: 1.1rem;
-    margin: 2rem 0 3rem;
+    margin: 1rem 0 3rem;
 }
 
 /*Skills Section*/
