@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -193,4 +194,41 @@ body {
     100% {
         transform: translateY(0);
     }
+}
+
+/*About Section*/
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: #2e313c;
+}
+
+.about-img img {
+    width: 35vw;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h2 span {
+    color: #00ffff;
+}
+
+.about-content h3 {
+    font-size: 2.5rem;
+}
+
+.about-content p {
+    font-size: 1.1rem;
+    margin: 2rem 0 3rem;
 }
