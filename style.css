@@ -124,6 +124,7 @@ body {
     opacity: 0;
     animation: slideTop 1s ease forwards;
     animation-delay: 2s;
+    margin-top: 30px;
 }
 
 /*Keyframes Animation*/
