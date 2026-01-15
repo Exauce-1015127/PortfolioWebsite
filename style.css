@@ -204,6 +204,8 @@ body {
     align-items: center;
     gap: 2rem;
     background: #2e313c;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
 }
 
 .about-img img {
@@ -238,6 +240,7 @@ body {
     min-height: auto;
     padding-bottom: 7rem;
     background: #1f242d;
+    padding-top: 7rem;
 }
 
 .skills .skills-row {
@@ -360,6 +363,8 @@ body {
 /*Portfolio Section*/
 .portfolio {
     background: #2e313c;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
 }
 
 .portfolio h2 {
@@ -433,4 +438,21 @@ body {
 .portfolio-layer a i {
     font-size: 2rem;
     color: #1f242d;
+}
+
+/*Contact Section*/
+.contact {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.contact p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.contact p a {
+    color: #00ffff;
+    text-decoration: underline;
+    margin-left: 5px;
 }
