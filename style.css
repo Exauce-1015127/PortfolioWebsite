@@ -129,6 +129,13 @@ body {
     margin-top: 30px;
 }
 
+.btn:hover {
+    background: #10c1c1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    transform: translateY(-5px);
+}
+
 /*Keyframes Animation*/
 @keyframes slideRight {
     0% {
@@ -304,34 +311,42 @@ body {
 
 
 /*Coding skills progress bar*/
+/*HTML*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span {
-    width: 75%;
+    width: 65%;
 }
 
+/*CSS*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span {
-    width: 60%;
+    width: 50%;
 }
 
+/*JavaScript*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span {
     width: 35%;
 }
 
+/*Python*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span {
+    width: 50%;
+}
+
+/*React*/
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
     width: 55%;
 }
 
-.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span {
-    width: 40%;
-}
-
+/*React Native*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span {
     width: 40%;
 }
 
+/*SQL*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(7) .bar span {
     width: 45%;
 }
 
+/*C#*/
 .skills-column:nth-child(1) .skills-content .progress:nth-child(8) .bar span {
     width: 20%;
 }
@@ -339,36 +354,39 @@ body {
 
 
 /*Professional skills progress bar*/
+/*Frontend Development*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span {
-    width: 70%;
+    width: 60%;
 }
 
+/*Backend Development*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span {
     width: 40%;
 }
 
+/*Mobile Development*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span {
     width: 40%;
 }
 
+/*UI/UX Design*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span {
-    width: 30%;
+    width: 65%;
 }
 
+/*Graphic Design*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span {
-    width: 85%;
+    width: 80%;
 }
 
+/*SEO Marketing*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span {
-    width: 90%;
+    width: 50%;
 }
 
+/*Content Marketing*/
 .skills-column:nth-child(2) .skills-content .progress:nth-child(7) .bar span {
-    width: 70%;
-}
-
-.skills-column:nth-child(2) .skills-content .progress:nth-child(8) .bar span {
-    width: 70%;
+    width: 50%;
 }
 
 /*Portfolio Section*/
